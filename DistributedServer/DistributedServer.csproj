@@ -19,7 +19,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\..\bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -58,7 +58,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DistributedServerDll\DistributedServerDll.csproj">
+    <ProjectReference Include="..\..\DistributedImpl\DistributedServerDll\DistributedServerDll.csproj">
       <Project>{99099000-6BC2-4E2F-BA78-3BD4E7BA6731}</Project>
       <Name>DistributedServerDll</Name>
     </ProjectReference>

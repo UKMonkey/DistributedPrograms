@@ -2,3 +2,5 @@ DistributedClient/bin/
 DistributedClient/obj/
 DistributedServer/bin/
 DistributedServer/obj/
+_ReSharper.DistributedSystemProgram/
+packages/
