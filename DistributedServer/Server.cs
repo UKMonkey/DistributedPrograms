@@ -62,6 +62,7 @@ namespace DistributedServerDll
             server.StartListening(
                    @"c:\stuff\Server\Serverdlls\new", @"c:\stuff\Server\Serverdlls\working",
                    @"c:\stuff\Server\Clientdlls\new", @"c:\stuff\Server\Clientdlls\working",
+                   @"c:\stuff\Server\JobStore",
                    12345);
         }
     }

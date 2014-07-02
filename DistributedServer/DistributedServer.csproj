@@ -36,14 +36,6 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DistributedInterfaces\packages\System.Data.SQLite.1.0.90.0\lib\net40\System.Data.SQLite.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Data.SQLite.Linq, Version=1.0.80.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\DistributedInterfaces\packages\System.Data.SQLite.1.0.90.0\lib\net40\System.Data.SQLite.Linq.dll</HintPath>
-    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -55,13 +47,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\DistributedImpl\DistributedServerDll\DistributedServerDll.csproj">
-      <Project>{99099000-6BC2-4E2F-BA78-3BD4E7BA6731}</Project>
-      <Name>DistributedServerDll</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\DistributedInterfaces\DistributedServerInterfaces\DistributedServerInterfaces.csproj">
       <Project>{D237E40E-4CCC-48B3-BEBD-5C01E26827DC}</Project>
       <Name>DistributedServerInterfaces</Name>
