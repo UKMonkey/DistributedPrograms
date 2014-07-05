@@ -4,3 +4,4 @@ DistributedServer/bin/
 DistributedServer/obj/
 _ReSharper.DistributedSystemProgram/
 packages/
+*.suo

@@ -60,9 +60,9 @@ namespace DistributedServerDll
             var server = GetNewTypeFromDll<IDistributedServer>(dll);
 
             server.StartListening(
-                   @"c:\stuff\Server\Serverdlls\new", @"c:\stuff\Server\Serverdlls\working",
-                   @"c:\stuff\Server\Clientdlls\new", @"c:\stuff\Server\Clientdlls\working",
-                   @"c:\stuff\Server\JobStore",
+                   @"C:\stuff\Server\Serverdlls\new", @"C:\stuff\Server\Serverdlls\working",
+                   @"C:\stuff\Server\Clientdlls\new", @"C:\stuff\Server\Clientdlls\working",
+                   @"C:\stuff\Server\JobStore",
                    12345);
         }
     }
